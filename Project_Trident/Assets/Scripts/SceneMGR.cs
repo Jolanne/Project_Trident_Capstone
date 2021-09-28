@@ -34,6 +34,7 @@ public class SceneMGR : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+        Debug.Log("You have quit the game");
     }
 
     public void LoadNextLevel()
