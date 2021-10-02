@@ -236,4 +236,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36d9f5896a77c244bb6a24fe841b50ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Cmgr: {fileID: 0}
   isPicked: 0
+  isAssignedToItemBox: 0
+  itemBoxIndex: 0
+  cso: {fileID: 11400000, guid: 1a30446a593a08449b828def0e0317fa, type: 2}

@@ -39,7 +39,7 @@ public class SceneMGR : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
 
     }
 }
