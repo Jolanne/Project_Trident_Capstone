@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2179404017773438862}
   - component: {fileID: 2179404017773438861}
   - component: {fileID: 2179404017773438860}
+  - component: {fileID: 4509612155286107598}
   m_Layer: 0
   m_Name: Hidden_Item_Broom
   m_TagString: Untagged
@@ -282,3 +283,16 @@ PolygonCollider2D:
       - {x: -1.505, y: 3.62}
       - {x: -1.505, y: 3.61}
       - {x: -1.515, y: 3.6}
+--- !u!114 &4509612155286107598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2179404017773438834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36d9f5896a77c244bb6a24fe841b50ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPicked: 0

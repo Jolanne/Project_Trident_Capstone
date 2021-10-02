@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4297782115732493204}
   - component: {fileID: 4297782115732493211}
   - component: {fileID: 4297782115732493210}
+  - component: {fileID: 598996806404795460}
   m_Layer: 0
   m_Name: Hidden_Item_Stool
   m_TagString: Untagged
@@ -223,3 +224,16 @@ PolygonCollider2D:
       - {x: -0.255, y: -0.465}
       - {x: -0.255, y: -0.475}
       - {x: -0.24499999, y: -0.475}
+--- !u!114 &598996806404795460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4297782115732493208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36d9f5896a77c244bb6a24fe841b50ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPicked: 0
