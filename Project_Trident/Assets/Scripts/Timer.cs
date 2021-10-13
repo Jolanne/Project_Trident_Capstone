@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -26,8 +27,7 @@ public class Timer : MonoBehaviour
         else
         {
             TimerValue = 0;
-            GameOverPanel.SetActive(true);
-            itemholderpanel.SetActive(false);
+            SceneManager.LoadScene(3);
         }
         DesplayTime(TimerValue);
     }
